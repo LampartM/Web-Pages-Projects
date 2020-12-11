@@ -1,0 +1,17 @@
+/* min-width:992px */
+
+/* HEADER */
+
+.header-text h1{
+    font-size: 50px;
+}
+
+.header-text p{
+    font-size: 27px;
+}
+
+.header-img {
+    height: 600px;
+    background-image: url('/img/forest-3119826_1920.jpg');
+}
+

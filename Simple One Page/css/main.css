@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wraper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* NAV */
+
+nav {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    text-align: center;
+}
+
+.nav-mobile {
+    position: absolute;
+    right: 0;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-mobile button {
+    padding: 0 30px;
+    border: none;
+    background: none;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+/* HEADER */
+
+.header-img {
+    position: relative;
+    height: 360px;
+    background-image: url('/img/forest-3119826_640.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-text h1 span {
+    color: tomato;
+}
+
+.header-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+/* MAIN */
+
+/* ABOUT US */
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    margin: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+}
+
+.about-us p {
+    padding: 0 20px;
+}
+
+/* SECTION IMG */
+
+.section-img {
+    position: relative;
+    background-attachment: scroll;
+    height: 360px;
+    background-image: url('/img/arts-and-crafts-1850025_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* CONTACT */
+
+.contact p {
+    padding: 0 20px;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.contact p i {
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    background-color: #333;
+    text-align: center;
+}

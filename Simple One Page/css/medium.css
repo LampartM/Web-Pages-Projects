@@ -1,0 +1,42 @@
+/* min-width:768px */
+
+/* NAV */
+
+.nav-mobile{
+    display: none;
+}
+
+.nav-desktop {
+    display: block;
+}
+
+.nav-desktop li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-desktop li a {
+    padding: 0 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    text-transform: uppercase;
+    transition: color .4s, font-size .4s;
+}
+
+.nav-desktop li a:hover {
+    color: tomato;
+    font-size: 30px;
+}
+
+/* HEADER */
+
+.header-text h1{
+    font-size: 40px;
+}
+
+.header-text p{
+    font-size: 21px;
+}
